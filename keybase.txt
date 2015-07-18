@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/wichert
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.wiggy.net
+  * I am wichert (https://keybase.io/wichert) on keybase.
+  * I have a public key with fingerprint 5D61 B9A0 8594 F6FA 57AB  2EA2 8A93 CA33 1E53 1D8B
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "5d61b9a08594f6fa57ab2ea28a93ca331e531d8b",
+            "host": "keybase.io",
+            "key_id": "8a93ca331e531d8b",
+            "uid": "fe54fedcf3b9f91274afc08ec2896900",
+            "username": "wichert"
+        },
+        "service": {
+            "hostname": "www.wiggy.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1413208597,
+    "expire_in": 157680000,
+    "prev": "badea9e87d046b11ec9c55ec9a17bff68eff0613e908741ca76a1cede40d9de4",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+
+owGbwMvMwMHYNfmUsVywbDfj6QOfkhhCrG9JVisl5adUKllVK2Wngqm0zLz01KKC
+osy8EiUrJdMUM8Mky0QDC1NLkzSztERT88Qko9REI4tES+PkRGNjw1RTY8MUiyQl
+HaWM/GKQDqAxSYnFqXqZ+UAxICc+MwUoikV9KVgiLdXUJC01JTnNOMkyzdLQyNwk
+MS3ZwCI12cjC0szSwACksDi1KC8xNxWoujwzOSO1qESpVkcJKFiWmZwKcjLIZpiC
+8nK98sz09Eq9vNQSoN6CovyS/OT8HKBURklJgRVIZ0llAVhpalI81JD4pMy8FKC/
+gRrKUouKM/PzlKwMgSqTSzJBphqaGBobgYLAXEcptaIgsyg1PhOkwtTczMIACEDW
+pJYBjUxKTElNtEy1ME8xMDFLMjRMTbZMNjUFkomG5klpaWYWqWlpBmaGxqmWBhbm
+JobJieZmiYbJqSmpJgYplkBSCeStwrx8JSszoDMT04FGFmem5yWWlBalKtVydTLJ
+sDAwcjCwsTKBoo6Bi1MAFqFFe/n/Cn/SNxU98cpZUESY/VJPceblOWubHd5bf/V8
+O9O5oqb+6rqtrtdsFqReV3C0MvDfs15x8wqbnS9Pbvq4l+duyiPVpnn8lk9Ef2sv
+uulkLF+za0PzmTSz2pKUtXOS9VwOaZ+4Z7NEP8jgbLp/+CGG61cdJFOnWuQ+sXh1
+jPN1q8Lxqs9f5n7qORDx1+6nk+ls2/kZnsXzJed4vy6ZHyrgn7Dl4DEVpZ9/Vk7e
+vyyz/y533P4zPxayV/a9Xva99+kD0VlyC89Ga/5m/P3lp4XJ8cN38pM9HeP0468L
+nYq6evlR9rl63Yi2/6VekyoC1MXevfwS8mjOR2G37u9qjytW6B/jknX9f+j010Ue
+ikyivpvZ5vItmSaucytto5uO5/trHlcPpPF06SwS/RjAcTw37dBfZaYL8seY87f3
+3n+gfSJtreji3dc5FztynPvlvu8Lg2Kw0vkcLyW/O4Gfr717eCqXR86h5MCXvDy+
+CtdDDzb0KK6Iy1osm+jOkPHGcsFk+YXbRXpOOB2rDS56y6PS/b7/3Ow5X/5uEm7I
+NhKo5mxeuKLl8cJjdr3s6+fMPn5Hqzor7PgfK/nv9tmrbD7XMDy55fQ+YKFTD98h
+m63FEq0nd/88qC/TZsKUkn7QIyR1h/gPu/17PEr6LJLLjlZWHTVWubDQhflE39WL
+unOrJQ9URSiGrVFacpgr8cp9r+SLE6wnNS3LXrRk+l5pWwA=
+=UaKy
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wichert
+
+==================================================================
+
