@@ -1,0 +1,31 @@
+---
+---
+{% if source %}
+    {% capture tracking %}utm_source{{source}}&amp;utm_medium=atom{% endcapture %}
+{% else %}
+    {% capture tracking %}utm_source=feed&amp;utm_medium=atom{% endcapture %}
+{% endif %}
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Wichert Akkerman</title>
+  <id>{{ site.production_url }}{{ page.url }}</id>
+  <link rel="self" href="{{ site.production_url }}{{ page.url }}"/>
+  <link rel="alternate" type="text/html" title="Wichert Akkerman's website" href="{{ site.production_url }}"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <author>
+    <name>{{ site.author.name  }}</name>
+    <email>{{ site.author.email }}</email>
+  </author>
+  {% for post in site.posts %}
+    <entry>
+      <title>{{ post.title | xml_escape }}</title>
+      <id>{{ site.production_url }}{{ post.id }}</id>
+      <link href="{{ site.production_url }}{{ post.url }}?{{ tracking }}{{ post.target_name }}"/>
+      <published>{{ post.date | date_to_xmlschema }}</published>
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <content type="html">
+        {{ post.description | markdownify | xml_escape }}
+        <p><a href="{{ site.production_url }}{{ post.url }}?{{ tracking }}{{ post.target_name }}">Read entire article.</a></p>
+      </content>
+    </entry>
+  {% endfor %}
+</feed>
