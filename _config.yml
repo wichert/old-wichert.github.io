@@ -1,0 +1,28 @@
+permalink: /articles/:title
+exclude: [".gitignore", "Gemfile", "Gemfile.lock"]
+# markdown: redcarpet
+kramdown:
+    input: GFM
+timezone: Europe/Amsterdam
+encoding: utf-8
+
+production_url : http://www.wiggy.net
+
+author:
+    name: Wichert Akkerman
+    email: wichert@wiggy.net
+    github: wichert
+    twitter: coding_wiggy
+
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            layout: "default"
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "post"

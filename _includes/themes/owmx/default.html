@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>{{ title or "Nifty Wow!" }} - Wichert Akkerman</title>
+    <link rel="stylesheet" href="/assets/owmx/owmx.css"/>
+    <meta name="author" content="Wichert Akkerman"/>
+    {% if description %}<meta name="description" content="{{ description }}"/>{% endif %}
+  </head>
+  <body>
+    <div id="a">
+      <header>
+        <a href="{{ site.url }}">Wichert Akkerman</a>
+        <p>
+        Software design? Strange hacks? All of the above please!
+        </p>
+      </header>
+      <div id="b">
+        <article>
+          <h1>{{ title }}</h1>
+
+          {{ content }}
+        </article>
+        <aside>
+          <h4>About Wichert</h4>
+          <div id="c">
+            I am freelance software developer. You can hire me through my
+            one-man freelance company <a href="http://www.simplon.biz/">Simplon</a>.
+          </div>
+
+          <nav>
+            <h4>Navigation</h4>
+            <ul>
+{% for item in site %}              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}            </ul>
+          </nav>
+        </aside>
+      </div>
+      <footer>
+       <p>Template by <a href="http://jonas.me/" title="Profile of Jonas Jacek">Jonas Jared Jacek</a>, licensed under
+       <a href="http://creativecommons.org/licenses/by-sa/3.0/">
+         Creative Commons Attribution-Share Alike 3.0 Unported License.</a></p>
+      </footer>
+    </div>
+    <script type="text/javascript">
+// <![CDATA[
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-262158-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+// ]]>
+    </script>
+  </body>
+</html>
